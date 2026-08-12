@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="t d">
+  <title id="t">Experimental platform placeholder</title>
+  <desc id="d">Stylized sensor, actuator, data acquisition, and computer workflow.</desc>
+  <rect width="640" height="420" rx="24" fill="#eef7f5"/>
+  <g fill="#fff" stroke="#1d4ed8" stroke-width="4">
+    <rect x="64" y="142" width="118" height="108" rx="16"/>
+    <rect x="260" y="142" width="118" height="108" rx="16"/>
+    <rect x="456" y="142" width="118" height="108" rx="16"/>
+  </g>
+  <g fill="none" stroke="#1d4ed8" stroke-width="5" stroke-linecap="round">
+    <path d="M182 196h78M378 196h78"/>
+    <path d="M238 181l22 15-22 15M434 181l22 15-22 15"/>
+    <path d="M515 250v74H123v-74"/>
+  </g>
+  <g fill="#15202b" font-family="Arial, sans-serif" text-anchor="middle">
+    <text x="123" y="188" font-size="20" font-weight="700">Sensors</text>
+    <text x="123" y="216" font-size="15">& Actuators</text>
+    <text x="319" y="188" font-size="20" font-weight="700">DAQ</text>
+    <text x="319" y="216" font-size="15">Real-time I/O</text>
+    <text x="515" y="188" font-size="20" font-weight="700">Control</text>
+    <text x="515" y="216" font-size="15">& Analysis</text>
+    <text x="320" y="354" font-size="17">Repeatable experimental loop</text>
+  </g>
+</svg>

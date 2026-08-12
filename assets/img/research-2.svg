@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="t d">
+  <title id="t">Frequency response placeholder</title>
+  <desc id="d">Stylized magnitude and phase frequency response curves.</desc>
+  <rect width="640" height="420" rx="24" fill="#f1f5f9"/>
+  <g stroke="#9aa8b7" stroke-width="2">
+    <path d="M88 62v280h500"/><path d="M88 204h500"/>
+  </g>
+  <g fill="none" stroke="#1d4ed8" stroke-width="5" stroke-linecap="round">
+    <path d="M105 120 C165 124 205 132 247 138 C286 144 311 147 330 96 C350 45 372 244 395 184 C420 118 447 201 480 197 C520 193 548 210 574 218"/>
+    <path d="M105 275 C170 275 215 268 260 252 C300 238 330 225 354 260 C382 303 407 293 430 280 C460 263 498 288 574 306" opacity="0.62"/>
+  </g>
+  <g fill="#15202b" font-family="Arial, sans-serif">
+    <text x="103" y="51" font-size="17">Magnitude</text>
+    <text x="103" y="234" font-size="17">Phase</text>
+    <text x="488" y="374" font-size="17">Frequency →</text>
+  </g>
+</svg>
