@@ -176,6 +176,51 @@ a {
   display: block;
 }
 
+/* =========================================
+   HRA Research Gallery
+   ========================================= */
+
+.hra-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  padding: 20px 16px;
+}
+
+.hra-figure {
+  margin: 0;
+}
+
+.hra-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Top experimental setup */
+.hra-setup img {
+  width: 100%;
+}
+
+/* Bottom two-column layout */
+.hra-bottom {
+  display: grid;
+  grid-template-columns: 1.35fr 0.85fr;
+  gap: 14px;
+  align-items: center;
+}
+
+/* Captions */
+.hra-figure figcaption {
+  margin-top: 7px;
+  text-align: center;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
 /* 첫 번째 시스템 사진은 조금 작게 */
 .research-overview img {
   width: 88%;
