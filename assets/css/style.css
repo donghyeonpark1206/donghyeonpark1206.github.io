@@ -156,6 +156,36 @@ a {
   margin-bottom: 0;
 }
 
+.research-gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 28px;
+}
+
+.research-figure {
+  margin: 0;
+}
+
+.research-gallery img {
+  width: 100%;
+  height: auto;
+  max-height: 220px;
+  object-fit: contain;
+  display: block;
+  border-radius: 10px;
+}
+
+.research-figure figcaption {
+  margin-top: 8px;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  text-align: center;
+  color: var(--muted);
+}
+
+
 .nav-toggle span {
   display: block;
   width: 18px;
