@@ -160,8 +160,8 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
-  padding: 28px;
+  gap: 22px;
+  padding: 18px 14px;
 }
 
 .research-figure {
@@ -171,10 +171,9 @@ a {
 .research-gallery img {
   width: 100%;
   height: auto;
-  max-height: 220px;
+  max-height: none;
   object-fit: contain;
   display: block;
-  border-radius: 10px;
 }
 
 .research-figure figcaption {
@@ -415,7 +414,7 @@ h3 {
 
 .research-card {
   display: grid;
-  grid-template-columns: minmax(280px, 0.9fr) minmax(0, 1.5fr);
+  grid-template-columns: minmax(320px, 1fr) minmax(0, 1.22fr);
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -619,6 +618,10 @@ h3 {
 
   .research-card {
     grid-template-columns: 1fr;
+  }
+
+  .research-gallery {
+    padding: 20px 16px;
   }
 
   .research-visual {
