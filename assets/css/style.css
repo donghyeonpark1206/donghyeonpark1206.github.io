@@ -681,6 +681,10 @@ h3 {
     padding: 20px 16px;
   }
 
+  .hra-gallery {
+    padding: 20px 16px;
+  }
+
   .research-visual {
     border-right: 0;
     border-bottom: 1px solid var(--line);
@@ -751,6 +755,10 @@ h3 {
   .research-details div {
     grid-template-columns: 1fr;
     gap: 3px;
+  }
+
+  .hra-bottom {
+    grid-template-columns: 1fr;
   }
 
   .footer-wrap {
