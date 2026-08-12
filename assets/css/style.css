@@ -132,6 +132,16 @@ a {
   cursor: pointer;
 }
 
+.academic-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.academic-link:hover {
+  text-decoration: underline;
+}
+
 .nav-toggle span {
   display: block;
   width: 18px;
