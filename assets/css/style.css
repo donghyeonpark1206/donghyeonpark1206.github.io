@@ -176,6 +176,18 @@ a {
   display: block;
 }
 
+/* 첫 번째 시스템 사진은 조금 작게 */
+.research-overview img {
+  width: 88%;
+  margin: 0 auto;
+}
+
+/* 그래프는 가능한 폭 전체 사용 */
+.research-graph img {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .research-figure figcaption {
   margin-top: 8px;
   font-size: 0.78rem;
